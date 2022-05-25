@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/700f2b3f9e.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <header>
+      <h1 class="oba">ObaDave</h1>
+      <nav>
+        <ul class="nav_links">
+          <li><a class="like" href="./index.html">About me</a></li>
+          <li><a class="like" href="./signUp.html">Sign up</a></li>
+          <li><a class="like" href="./login.html">Login</a></li>
+          <li><a class="like" href="./cal.html">Calculator</a></li>
+        </ul>
+      </nav>
+      <a class="like" href="#"><button class="contact">Contact</button></a>
+    </header>
+
+    <div class="container">
+      <form action="">
+        <h2>Sign up</h2>
+        <div class="precious">
+          <div class="determine">
+            <label for="email">What's your email?</label>
+          </div>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email."
+          />
+          <br />
+          <a class="number" href="tel:+2348134562916"
+            >Use your phone number instead.</a
+          >
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="password">Create a password</label>
+          </div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Create a password."
+            required
+            pattern="[.5, 10 ]"
+            title="password must not be more than 10 characters"
+          />
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="password">Confirm password</label>
+          </div>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Confirm password."
+            required
+            pattern="[.5,10]"
+            title="password must not be more than 10 characters"
+          />
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="profile_name">What do we call you?</label>
+          </div>
+          <input
+            type="text"
+            name="profile_name"
+            id="profile_name"
+            placeholder="Enter a profile name."
+            required
+          />
+          <br />
+          <small>This appears on your profile.</small><br />
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="Gender">Gender</label>
+          </div>
+          <div class="dave">
+            <select name="Gender" id="gender" required>
+              <option value="gender">please choose an option...</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="Others">Others</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="State">State/Province</label>
+          </div>
+          <input
+            type="text"
+            name="state"
+            id="state"
+            placeholder="State/Province"
+            required
+          />
+        </div>
+
+        <div class="precious">
+          <div class="determine">
+            <label for="Country">Country</label>
+          </div>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            placeholder="Country"
+            required
+          />
+        </div>
+        <br />
+        <div class="ber"><button class="ber">REGISTER</button></div>
+        <h6>Already have an account? <a href="./login.html">Login</a></h6>
+      </form>
+
+      <div class="dole">
+        <img src="./images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer_content">
+        <h3>ObaDave</h3>
+        <ul id="fade">
+          <li>
+            <a href="https://twitter.com/i_amadetunji"
+              ><i class="fa fa-twitter-square" aria-hidden="true"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com/Davetunji"
+              ><i class="fa fa-github-square"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/iamadetunji/"
+              ><i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer_bottom">
+        <p>Copyright &copy;2022 ObaDave. Designed by <span>Dave</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
